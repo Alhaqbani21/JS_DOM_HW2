@@ -3,6 +3,7 @@
   height: 40%;
 }
 
-#logoButton:hover {
+#logo:hover {
   cursor: pointer;
+  opacity: 0.3;
 }
