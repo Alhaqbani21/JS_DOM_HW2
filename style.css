@@ -2,3 +2,7 @@
   object-fit: fill;
   height: 40%;
 }
+
+#logoButton:hover {
+  cursor: pointer;
+}

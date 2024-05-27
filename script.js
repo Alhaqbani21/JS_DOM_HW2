@@ -5,6 +5,7 @@ let headerSection2 = document.querySelector('#headerSection2');
 let itemLeftSection = document.querySelectorAll('.itemLeftSection');
 let captionContainer = document.querySelector('#captionContainer').children;
 let headerSection4 = document.querySelector('#headerSection4');
+let logo = document.querySelector('#logo');
 
 console.log();
 
@@ -32,6 +33,7 @@ logoButton.addEventListener('click', () => {
       `;
     headerSection4.innerText = `We’re the treat-your-dog-like-family dog people
       `;
+    logo.src = 'https://i.ibb.co/zftD2vk/logo.png';
   } else {
     imageHeader.src = 'https://i.ibb.co/QfqjHxq/mobile-hero-2.jpg';
     headerText[0].innerText = `We're the Cat People`;
@@ -50,6 +52,8 @@ logoButton.addEventListener('click', () => {
 
     headerSection4.innerText = `We’re the treat-your-cat-like-family cat people
     `;
+    logo.src =
+      'https://as2.ftcdn.net/v2/jpg/01/10/56/29/1000_F_110562913_yoxjxxD24VidOWpbjfektgs2PV4EroPf.jpg';
   }
   flag = !flag;
 });
